@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Container */
+.brand-container {
+  padding: 40px 60px;
+}
+
+/* Header */
+.brand-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.brand-header h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.brand-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.brand-actions a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 600;
+}
+
+.brand-actions .arrows button {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Grid */
+.brand-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: flex-start;
+}
+
+/* Card */
+.brand-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  width: 270px;
+  transition: all 0.2s ease;
+}
+
+.brand-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.brand-img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-name {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.brand-desc {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 4px 0 0;
+}

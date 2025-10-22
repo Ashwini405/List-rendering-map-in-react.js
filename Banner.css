@@ -1,0 +1,118 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf6;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.banner {
+  flex: 2;
+  background-color: #e7f1f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 40px;
+}
+
+.banner-text {
+  max-width: 50%;
+}
+
+.banner-text h3 {
+  color: #e4b100;
+  font-weight: 500;
+}
+
+.banner-text h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.banner-text p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.shop-btn {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: 1px solid #333;
+  background: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.banner-img img {
+  width: 250px;
+  
+}
+
+.dots {
+  margin-top: 20px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.dot.active {
+  background-color: #f9c100;
+}
+
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+
+.offer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.offer-content h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.offer-content p {
+  margin: 5px 0;
+  color: gray;
+  letter-spacing: 2px;
+}
+
+.offer-content h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.offer-content a {
+  color: #333;
+  font-weight: 500;
+}
+
+.offer-img img {
+  width: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+}
